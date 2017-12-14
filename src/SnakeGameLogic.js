@@ -106,7 +106,7 @@ SnakeGameLogic.prototype.nextState=function(){
       }
     }
     }
-  if(this.joints[0].x>=20 || this.joints[0].y>=15){
+  if(this.joints[0].x>=20|| this.joints[0].y>=15||this.joints[0].x<0||this.joints[0].y<0){
     return false;
   }
 
