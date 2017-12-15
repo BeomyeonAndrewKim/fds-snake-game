@@ -101,7 +101,6 @@ SnakeGameLogic.prototype.nextState=function(){
   for(let i=0;i<this.joints.length-1;i++){
     for(let j=i+1;j<this.joints.length;j++){
       if(this.joints[i].x===this.joints[j].x && this.joints[i].y===this.joints[j].y){
-        console.log(this.joints[i].x===this.joints[j].x && this.joints[i].y===this.joints[j].y);
         return false;
       }
     }
